@@ -86,6 +86,11 @@ a {
     color: #00FF00 !important;
 }
 
+    
+/* User Profile */
+.hydra .user-profile div.user-profile-container {
+        background-color: rgba(0, 0, 0, 0.9);        
+}
 
 /* Nav Tabs */
 .nav-tabs .nav-link.active,
