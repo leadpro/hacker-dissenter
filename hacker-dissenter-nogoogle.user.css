@@ -1,0 +1,115 @@
+/* ==UserStyle==
+@name           Hacker Dissenter (No Google Fonts)
+@namespace      github.com/fexeldigital/hacker-dissenter
+@version        1.0.0
+@description    Making Dissenter More Edgy.
+@author         Fexel
+@license        WTFPL v2.0
+==/UserStyle== */
+
+@-moz-document domain("dissenter.com") {
+
+/*General call for webfont to be used across the site. Requires Anonymous Pro 
+  to be installed or use the Google Font Version of this userstyle*/
+.hydra .page-preview {
+    font-family: 'Anonymous Pro', monospace;
+}
+
+body {
+    color: #00FF00;
+    font-family: 'Anonymous Pro', monospace;
+}
+
+/* Sets the font for the main title */
+.hydra .dissent-home .home-title .title-text {
+    font-family: 'Anonymous Pro', monospace;
+}
+
+/* Targets User Text -- uses the paragraph tag */
+body p {
+    color: #00FF00;
+    font-size: 14pt;
+}
+
+.form-control {
+    background-color: #333;
+    color: #00FF00;
+}
+
+.btn-dark {
+    background-color: #333;
+    color: #00FF00;
+}
+
+
+.btn-dark:hover {
+    background-color: #666;
+    color: #00FF00;
+}
+
+.btn-outline-primary {
+    background-color: #333;
+    border-color: #00FF00;
+    color: #00FF00 !important;
+}
+
+.btn-outline-primary:hover {
+    background-color: #666;
+    border-color: #00FF00;
+    color: #00FF00 !important;
+}
+
+.card-body {
+
+    background-color: #333;
+    color: #00FF00;
+}
+
+.hydra div.comment-container {
+    background-color: #222;
+    border: none;
+}
+
+.bg-dark {
+    background-color: #333 !important;
+}
+
+
+/* Usernames & Links */
+a {
+    color: #00FF00 !important;
+}
+
+
+/* Nav Tabs */
+.nav-tabs .nav-link.active,
+.nav-pills .nav-link.active {
+    background-color: #666;
+    color: #00FF00 !important;
+    font-weight: bold;
+}
+
+.nav-tabs .nav-link:hover,
+.nav-pills .nav-link:hover {
+    background-color: #444;
+    color: #00FF00 !important;
+    font-weight: bold;
+}
+
+.text-light {
+    color: #00FF00 !important;
+}
+
+/* Dropdown Menus */
+.dropdown-item:hover,
+.dropdown-item:focus {
+    background-color: #555;
+    font-weight: bold;
+}
+
+/* Notifications */
+.list-group-item:hover {
+    color: #00FF00;
+    background-color: #333;
+}
+}
