@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name           Hacker Dissenter (No Google Fonts)
 @namespace      github.com/fexeldigital/hacker-dissenter
-@version        1.0.0
+@version        1.0.1
 @description    Making Dissenter More Edgy.
 @author         Fexel
 @license        WTFPL v2.0
@@ -9,8 +9,7 @@
 
 @-moz-document domain("dissenter.com") {
 
-/*General call for webfont to be used across the site. Requires Anonymous Pro 
-  to be installed or use the Google Font Version of this userstyle*/
+/*General call for webfont to be used across the site.*/
 .hydra .page-preview {
     font-family: 'Anonymous Pro', monospace;
 }
@@ -80,6 +79,11 @@ a {
     color: #00FF00 !important;
 }
 
+    
+/* User Profile */
+.hydra .user-profile div.user-profile-container {
+        background-color: rgba(0, 0, 0, 0.9);        
+}
 
 /* Nav Tabs */
 .nav-tabs .nav-link.active,
