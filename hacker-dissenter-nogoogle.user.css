@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name           Hacker Dissenter (No Google Fonts)
 @namespace      github.com/fexeldigital/hacker-dissenter
-@version        1.0.1
+@version        1.0.2
 @description    Making Dissenter More Edgy.
 @author         Fexel
 @license        WTFPL v2.0
@@ -46,13 +46,13 @@ body p {
     color: #00FF00;
 }
 
-.btn-outline-primary {
+.btn-outline-primary, .btn-primary {
     background-color: #333;
     border-color: #00FF00;
     color: #00FF00 !important;
 }
 
-.btn-outline-primary:hover {
+.btn-outline-primary:hover, .btn-primary:hover {
     background-color: #666;
     border-color: #00FF00;
     color: #00FF00 !important;
@@ -73,6 +73,9 @@ body p {
     background-color: #333 !important;
 }
 
+.bg-primary {
+    background-color: #333 !important;        
+}    
 
 /* Usernames & Links */
 a {
